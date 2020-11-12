@@ -1,0 +1,32 @@
+#LocationSearch {
+  background: #ffffff94;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 20px;
+  padding: 5px;
+}
+
+#locationSearch {
+  background: none;
+  border: none;
+  padding: 10px;
+  width: 100%;
+}
+
+#locationSearch:focus {
+  outline: none;
+}
+
+#LocationSearch button {
+  background: #009c32;
+  border: none;
+  color: white;
+  padding: 6px 12px;
+  border-radius: 50%;
+  transition: all .5s;
+}
+
+#LocationSearch button:hover {
+  outline: none;
+  background: #00c91c;
+}

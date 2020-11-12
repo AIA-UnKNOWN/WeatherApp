@@ -1,0 +1,71 @@
+#WeatherDetails {
+  background: #ffffff94;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.Details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Details:nth-child(2) {
+  padding: 5px 5px 0;
+  display: flex;
+  justify-content: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  font-size: 13px;
+  margin-top: 5px;
+}
+
+.Details:last-child {
+  margin: 5px 0 0;
+}
+
+#city-country, #description {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+#city-country {
+  font-variant: small-caps;
+  font-weight: bold;
+  background: #049520;
+  color: #fff;
+  box-shadow: 0 0 3px #049520;
+  border-radius: 5px;
+}
+
+#description {
+  font-size: 13px;
+  font-weight: 500;
+  text-transform: capitalize;
+  border-bottom: 1px solid black;
+  font-style: oblique;
+  font-weight: 500;
+}
+
+.wind {
+  width: calc(100% / 3);
+}
+
+.wind-label, .wind-label-value {
+  text-align: center;
+}
+
+.wind-label {
+  padding: 5px;
+  background: #00b8e5;
+  color: white;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+
+.wind-label-value {
+  padding: 8px;
+  background: #888888;
+  font-weight: 500;
+  color: #fff;
+}
