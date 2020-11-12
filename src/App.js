@@ -76,8 +76,8 @@ class App extends Component {
             city={!loaded || !api ? 'N/A' : api.name}
             country={!loaded || !api ? 'N/A' : api.sys.country}
             desc={!loaded || !api ? 'N/A' : api.weather[0].description}
-            windSpeed={!loaded || !api ? 'N/A' : api.wind.speed}
-            windDeg={!loaded || !api ? 'N/A' : api.wind.deg}
+            windSpeed={!loaded || !api ? 0 : api.wind.speed}
+            windDeg={!loaded || !api ? 0 : api.wind.deg}
             windGust={!loaded || !api ? 0 : api.wind.gust || 0}
           />
         </div>

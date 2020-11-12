@@ -8,7 +8,7 @@ function LocationSearch(props) {
         type="text"
         name="locationSearch"
         id="locationSearch"
-        placeHolder="Ex. Manila"
+        placeHolder="(City Only) Ex. Manila"
       />
       <button onClick={props.search}>
         <i class="fas fa-search"></i>
